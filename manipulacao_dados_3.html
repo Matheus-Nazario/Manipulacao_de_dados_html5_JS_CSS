@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Formatação de strings</title>
+    <style>
+        body{ background-color: rgb(78, 223, 78);
+        color: black;
+        font: 500 pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1> Formatando as strings.</h1>
+    <p> Estamos utilizando a formatação de length / touppercase / tolowercase </p>
+    <h2> O length é sem "()" é uma códg que conta quantas strings (letras) tem </h2>
+    <h3> O touppercase é com () colocar tudo em maísculo as strings </h3>
+    <h4> A tolowercase é para colocar tudo em minúsculo  </h4>
+    <script>
+    var nome = prompt("Qual é o seu nome? ")
+    document.writeln(`Hello <strong> ${nome} <strong>, o seu nome tem ${nome.length} letras.</br>`)
+    document.writeln(`Seu nome com Letras maiúsculas ${nome.toUpperCase()}. </br>`)
+    document.writeln(`Seu nome com Letras minúsculas ${nome.toLowerCase()}. </br>`)
+    </script>
+</body>
+</html>
